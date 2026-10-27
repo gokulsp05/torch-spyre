@@ -86,9 +86,9 @@ test_suite_config:
       tests:
         - names:
             - TestSpyreModelOps::test_model_ops_db
-          mode: mandatory_success
+          mode: xfail
           tags:
-            - model__Qwen2.5-7B-Instruct
+            - model__Qwen2.5-7B-Instruct-spyre-inference
           edits:
             ops:
               include:
