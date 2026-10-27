@@ -88,7 +88,7 @@ test_suite_config:
             - TestSpyreModelOps::test_model_ops_db
           mode: xfail
           tags:
-            - model__gemma-4-26B-A4B-it
+            - model__gemma-4-26B-A4B-it-spyre-inference
           edits:
             ops:
               include:
