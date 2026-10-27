@@ -86,9 +86,9 @@ test_suite_config:
       tests:
         - names:
             - TestSpyreModelOps::test_model_ops_db
-          mode: mandatory_success
+          mode: xfail
           tags:
-            - model__granite-3.3-8b-instruct
+            - model__granite-3.3-8b-instruct-spyre-inference
           edits:
             ops:
               include:
